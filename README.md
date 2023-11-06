@@ -41,6 +41,10 @@ To Deploy Flask App in GCP:
 7. Website url is then provided.
    Website: `https://kettipcloud504.ue.r.appspot.com/`
 
+Observations
+
+CDN's are useful because data does not have to be stored on the local conputer. 
+
 Challenges
 
 Issued encountered:
@@ -52,4 +56,4 @@ Please try again in 30 seconds.
 
 Error was resolved by specifying that the static folder is templates folder `app = Flask(__name__,static_folder="/templates")`
 
-CDN's are useful because data does not have to be stored on the local conputer. 
+
