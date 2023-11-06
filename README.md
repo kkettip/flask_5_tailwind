@@ -50,6 +50,6 @@ Error: Server Error
 The server encountered an error and could not complete your request.
 Please try again in 30 seconds.
 
+Error was resolved by specifying that the static folder is templates folder `app = Flask(__name__,static_folder="/templates")`
 
-CDN's are useful because data does not have to be stored on the loccal conputer. 
-Error was resolved by specifying that the static folder `app = Flask(__name__,static_folder="/templates")`
+CDN's are useful because data does not have to be stored on the local conputer. 
