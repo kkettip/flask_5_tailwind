@@ -27,6 +27,15 @@ To set up CDN on GCP:
 12. Click Confirm.
 
 13. Upload content to bucket
+    
+15. click Next.
 
-14. click Next.
+To Deploy Flask App in GCP:
 
+1. Select App Engine and create
+2. Enable APIs
+3. Initialize SDK with `gcloud init` in terminal
+4. input in terminal `gcloud config set project [project ID]`
+5. input in terminal `gcloud app deploy app.yaml`
+6. Website url is then provided.
+7. 
