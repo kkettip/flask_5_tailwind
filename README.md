@@ -36,6 +36,7 @@ To Deploy Flask App in GCP:
 2. Enable APIs
 3. Initialize SDK with `gcloud init` in terminal
 4. input in terminal `gcloud config set project [project ID]`
-5. input in terminal `gcloud app deploy app.yaml`
-6. Website url is then provided.
-7. 
+5. Sign in to the gcloud CLI and verify
+6. input in terminal `gcloud app deploy app.yaml`
+7. Website url is then provided.
+   Website: `https://kettipcloud504.ue.r.appspot.com/`
