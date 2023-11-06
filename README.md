@@ -40,3 +40,14 @@ To Deploy Flask App in GCP:
 6. input in terminal `gcloud app deploy app.yaml`
 7. Website url is then provided.
    Website: `https://kettipcloud504.ue.r.appspot.com/`
+
+Challenges
+
+Issued encountered:
+
+Error message received when deploying app:
+Error: Server Error
+The server encountered an error and could not complete your request.
+Please try again in 30 seconds.
+
+Error was resolved by specifying that the static folder `app = Flask(__name__,static_folder="/templates")`
